@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+			<div class="row">
+				<div class="offset-2 col-8">
+                    <br>
+                    <h2><strong>Escolha a sua cor em (RGB)</strong></h2><br><br>
+                    <form>     
+                        <label>(R) Red:</label>
+                        <input type="text" id="textRed" size="2" value="0" readonly disabled>
+                        <input type="range" id="rangeRed" value="0" min="0" max="255"><br><br>
+
+                        <label>(G) Green:</label>
+                        <input type="text" id="textGreen" size="2"value="0" readonly disabled>
+                        <input type="range" id="rangeGreen" value="0" min="0" max="255"><br><br>
+
+                        <label>(B) Blue:</label>
+                        <input type="text" id="textBlue" size="2" value="0" readonly disabled>
+                        <input type="range" id="rangeBlue" value="0" min="0" max="255"><br><br>
+                        
+                        <div class="rol">
+                            <div class="offset-4 col-12">
+                                <div id="Divquadrado"></div>
+                            </div>
+                        </div>
+                        </form>
+                    </div>
+			    </div>
+		    </div>
+        <script src="script.js"></script>
+    </body>
+</html>
